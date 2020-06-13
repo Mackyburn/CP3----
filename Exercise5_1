@@ -1,0 +1,10 @@
+Input_01 = float(input('ใส่ตัวเลขตัวแรก : '))
+Input_02 = float(input('ใส่ตัวเลขตัวสอง : '))
+sol_01 = Input_01 + Input_02
+sol_02 = Input_01 - Input_02
+sol_03 = Input_01 * Input_02
+sol_04 = Input_01 / Input_02
+print(f'{Input_01:.2f}+{Input_02:.2f}={sol_01:.2f}')
+print(f'{Input_01:.2f}-{Input_02:.2f}={sol_02:.2f}')
+print(f'{Input_01:.2f}*{Input_02:.2f}={sol_03:.2f}')
+print(f'{Input_01:.2f}/{Input_02:.2f}={sol_04:.2f}')
