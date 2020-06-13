@@ -1,0 +1,4 @@
+Input_01 = float(input('ระยะทาง (m) : '))
+Input_02 = float(input('เวลา (s) : '))
+V = Input_01/Input_02
+print(f'ความเร็ว (m/s) = {V:.2f}')
