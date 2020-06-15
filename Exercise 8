@@ -1,0 +1,22 @@
+U_Input = str(input('username :'))
+P_Input = str(input('password :'))
+if U_Input == 'mack' and P_Input == '1234':
+    print('welcome to Mack shop')
+    print('1.NCT song ราคา 100 บาท/ชิ้น \n2.BTS song ราคา 150 บาท/ชิ้น \n3.Itzy song ราคา 200 บาท/ชิ้น')
+    if A == 1 :
+        print('ท่านได้เลือกสินค้า NCT song')
+        B = int(input('จำนวนของสินค้า (ชิ้น) :'))
+        result = B*100
+        print(f'ราคาสินค้า : {result:.2f}')
+    elif A == 2 :
+        print('ท่านได้เลือกสินค้า BTS song')
+        B = int(input('จำนวนของสินค้า (ชิ้น) :'))
+        result = B*100
+        print(f'ราคาสินค้า : {result:.2f}')
+    elif A == 3 :
+        print('ท่านได้เลือกสินค้า NCT song')
+        B = int(input('จำนวนของสินค้า (ชิ้น) :'))
+        result = B*100
+        print(f'ราคาสินค้า : {result:.2f}')
+else :
+    print('error')
