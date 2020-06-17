@@ -1,0 +1,7 @@
+Input = int(input('ใส่ตัวเลข : '))
+text = ' '
+I = 0
+while I <= Input :
+    A = (text * (Input-I))+('*'*(2*I+1))
+    I = I + 1
+    print(A)
