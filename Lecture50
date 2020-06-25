@@ -1,0 +1,18 @@
+def A(x,y) :
+    sol_01 = x + y
+    return sol_01
+def B(x,y) :
+    sol_02 = x - y
+    return sol_02
+def C(x,y) :
+    sol_03 = x * y
+    return sol_03
+def D(x,y) :
+    sol_04 = x / y
+    return sol_04
+Input_01 = float(input('ใส่ตัวเลขตัวแรก : '))
+Input_02 = float(input('ใส่ตัวเลขตัวสอง : '))
+print(A(Input_01,Input_02))
+print(B(Input_01,Input_02))
+print(C(Input_01,Input_02))
+print(D(Input_01,Input_02))
