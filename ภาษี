@@ -1,0 +1,5 @@
+def V(x) :
+    result = x + (x*7/100)
+    return result
+Input_01 = float(input('กรอกจำนวนเงิน (บาท) :'))
+print(f'ราคาสินค้าที่ต้องจ่ายรวมกับค่าภาษี : {V(Input_01)}')
