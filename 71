@@ -1,0 +1,15 @@
+List_meau = []
+List_price = []
+def Bill() :
+    for i in range(len(List_meau)):
+        print(f'{List_meau[i]} : {List_price[i]}')
+        print(f'total price = {sum(List_price)}')
+while True :
+    Input_01 = str(input('รายการอาหาร :'))
+    if Input_01.lower() == 'exit' :
+        break
+    else :
+        Input_02 = float(input('ราคาอาหาร :'))
+        List_meau.append(Input_01)
+        List_price.append(Input_02)
+Bill()
